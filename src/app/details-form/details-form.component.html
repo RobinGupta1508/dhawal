@@ -1,0 +1,8 @@
+<div *ngFor="let detail of details">
+  <p>{{detail.name}}</p>
+  <p>{{detail.dob}}</p>
+  <p>{{detail.gender}}</p>
+  <p>{{detail.email}}</p>
+  <button btn btn-primary (click)="editUser(detail.id)" type="button">Edit</button>
+  <hr>
+</div>
